@@ -1,0 +1,110 @@
+
+body {
+    text-align: center;
+}
+.title-text{
+    margin-top: 0.4em;
+}
+.info {
+    font-size: 0.5em;
+}
+
+.profile-img {
+    max-width: 90%;
+    width: 50%;
+    margin-bottom: 2em;
+}
+
+
+.section-one {
+    margin: 5em 0;
+}
+
+.section-one-text{
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 2em;
+    color: #005073;
+}
+
+
+
+.section-two {
+    margin-bottom: 5em;
+}
+
+.mail {
+    font-size: 5em;
+    margin-bottom: 0.5em;
+    color: #189AD3;
+}
+
+.email-charles{
+    color: #005073;
+}
+
+.face, .twit, .insta {
+    font-size: 2em;
+    margin: 0 1em;
+    
+}
+
+footer {
+    background-color: #F8F9FA;
+    padding: 2em 0;;
+}
+
+
+.current{
+    border-bottom: black 1px solid;
+}
+
+/* Voice */
+.voice-title {
+    margin-bottom: 2em;
+    color: #012535;
+}
+
+.voice-img{
+    width: 60%;
+    margin-top: 2em;
+}
+
+.voice-text {
+    color: #005073;
+}
+
+.voice-section {
+    border-bottom: 3px solid #efefef;
+    padding-bottom: 2em;
+    margin-bottom: 2em;
+}
+
+.voice-section:last-child{
+    border: none;
+}
+
+.voice-section-one {
+    margin: 2em 0;
+}
+
+/* Resume */
+
+.resume-title{
+    margin: 2em 0;
+}
+
+.title-col{
+    color: #868282;
+    color: black
+}
+
+@media (min-width: 690px){
+    .profile-img { 
+        width: 25%;
+    }
+
+    .voice-img{
+        width: 40%;
+    }
+}
